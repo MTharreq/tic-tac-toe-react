@@ -42,6 +42,8 @@ function Board({xIsNext, squares, onPlay}) {
   )
 }
 
+
+// INI EXPORT DEFAULT NYA
 export default function Game(){
   const [history, setHistory] = useState([Array(9).fill(null)])
   const [currentMove, setCurrentMove] = useState(0)
